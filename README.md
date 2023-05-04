@@ -9,7 +9,9 @@ Before running the script, you need to set up a few things:
 
 ### Install the required Python packages:
 
-`pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client openai`
+```
+pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client openai
+```
 
 ### Enable the Gmail API:
 - Go to the Google Cloud Console.
@@ -31,7 +33,9 @@ Before running the script, you need to set up a few things:
 
 Run the script using the following command:
 
-`python gpt3.py [email]`
+```
+python gpt3.py [email]
+```
 
 Replace [email] with the email address associated with the Gmail account you want to use.
 
